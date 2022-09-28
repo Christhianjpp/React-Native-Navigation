@@ -1,9 +1,8 @@
 import 'react-native-gesture-handler';
 
-import React from 'react'
-import { Text, View } from 'react-native'
+import React from 'react';
 
-import { NavigationContainer } from '@react-navigation/native';
+import {NavigationContainer} from '@react-navigation/native';
 import { StarckNavigator } from './src/navigator/StackNavigator';
 
 const App = () => {
@@ -11,7 +10,7 @@ const App = () => {
     <NavigationContainer>
       <StarckNavigator/>
     </NavigationContainer>
-  )
-}
+  );
+};
 
-export default App
+export default App;
